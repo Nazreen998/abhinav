@@ -1,0 +1,367 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Navbar */
+.navbar {
+  background-color: purple;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 50px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo img {
+  width: 40px;
+  height: 40px;
+}
+
+.logo h1 {
+  font-size: 22px;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.navbar a:hover {
+  color: green;
+}
+
+/* Hero Section */
+.hero {
+  background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),
+              url('back.jpg') center/cover;
+  color: white;
+  text-align: center;
+  padding: 120px 20px;
+}
+
+.hero h2 {
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+
+.hero p {
+  font-size: 18px;
+  margin-bottom: 25px;
+}
+
+.btn {
+  background-color: purple;
+  color: white;
+  padding: 10px 25px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background-color: green;
+  transform: scale(1.05);
+}
+
+
+
+/* Contact Section */
+.contact-section {
+  text-align: center;
+  padding: 60px 20px;
+  background-color: #f8f0ff; 
+}
+
+.contact-section h2 {
+  font-size: 30px;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.contact-section p {
+  color: #555;
+  font-size: 18px;
+  margin-bottom: 25px;
+}
+
+.contact-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 60px;
+  margin-top: 20px;
+}
+
+.contact-info {
+  background: white;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  text-align: left;
+  width: 600px;
+  height: auto;
+}
+.contact-info a {
+  color: purple;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.contact-info a:hover {
+  color: green;
+  text-decoration: underline;
+}
+
+
+.contact-info h3 {
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.contact-info p {
+  margin: 8px 0;
+  font-size: 16px;
+  color: #444;
+}
+
+.map {
+  width: 400px;
+  border-radius: 15px;
+  overflow: hidden;
+}
+/* About Section */
+.about {
+  text-align: center;
+  padding: 60px 20px;
+  background-color: #f8f0ff;
+}
+
+.about h2 {
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.about p {
+  font-size: 18px;
+  color: #555;
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+/*Our Product Sections*/
+.products-section {
+  text-align: center;
+  padding: 60px 20px;
+  background-color: #f8f0ff; /* Light purple background */
+}
+
+.products-section h2 {
+  font-size: 30px;
+  color: #6a0dad; /* Main purple theme */
+  margin-bottom: 15px;
+}
+
+.products-section p {
+  color: #555;
+  font-size: 18px;
+  margin-bottom: 35px;
+}
+
+.product-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+}
+
+.product-category {
+  background: white;
+  padding: 25px;
+  border-radius: 15px;
+  width: 250px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  text-align: center;
+  transition: transform 0.3s;
+}
+
+.product-category:hover {
+  transform: translateY(-5px);
+}
+
+.category-icon img {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 15px;
+}
+
+.product-category h3 {
+  color: #6a0dad;
+  margin-bottom: 15px;
+  font-size: 22px;
+}
+
+.product-category ul {
+  list-style: disc inside;
+  color: #333;
+  line-height: 1.6;
+  text-align: left;
+}
+/*Service*/
+.services-section {
+  text-align: center;
+  padding: 60px 20px;
+  background-color: #f3e5f5; /* light purple background */
+}
+
+.services-section h2 {
+  font-size: 30px;
+  color: #6a0dad; /* main purple theme */
+  margin-bottom: 15px;
+}
+
+.services-section p {
+  font-size: 18px;
+  color: #555;
+  margin-bottom: 35px;
+}
+
+.services-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+}
+
+.service-card {
+  background: white;
+  padding: 25px;
+  border-radius: 15px;
+  width: 250px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  text-align: center;
+  transition: transform 0.3s;
+}
+
+.service-card:hover {
+  transform: translateY(-5px);
+}
+
+.service-icon img {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 15px;
+}
+
+.service-card h3 {
+  color: #6a0dad;
+  margin-bottom: 10px;
+  font-size: 22px;
+}
+
+.service-card p {
+  color: #333;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* Footer */
+footer {
+  background-color: purple;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+  font-size: 14px;
+}
+/* Common Media Query for devices <= 768px (tablets and mobiles) */
+@media (max-width: 768px) {
+  
+  /* Navbar: stack logo and menu */
+  .navbar {
+    flex-direction: column;
+    gap: 15px;
+    padding: 15px 20px;
+  }
+
+  .navbar ul {
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+  }
+
+  /* Hero Section: adjust padding and text */
+  .hero {
+    padding: 80px 15px;
+  }
+
+  .hero h2 {
+    font-size: 28px;
+  }
+
+  .hero p {
+    font-size: 16px;
+  }
+
+  /* General Section Padding */
+  section {
+    padding: 40px 15px;
+  }
+
+  /* Services, Products, Contact Containers: stack cards vertically */
+  .services-container,
+  .product-container,
+  .contact-container {
+    flex-direction: column;
+    gap: 25px;
+    align-items: center;
+  }
+
+  /* Cards, Product Categories, Contact Info, Map */
+  .service-card,
+  .product-category,
+  .contact-info,
+  .map {
+    width: 90%;
+    max-width: 350px;
+  }
+
+  /* Footer: adjust padding */
+  footer {
+    padding: 20px 10px;
+    font-size: 14px;
+  }
+
+  /* Buttons */
+  .btn {
+    padding: 10px 20px;
+    font-size: 16px;
+  }
+
+  /* Headings across site */
+  h2 {
+    font-size: 26px;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+}
+
