@@ -7,7 +7,7 @@
 
 /* Navbar */
 .navbar {
-  background-color: purple;
+  background-color: rgb(70, 5, 70);
   color: white;
   display: flex;
   justify-content: space-between;
@@ -67,7 +67,7 @@
 }
 
 .btn {
-  background-color: purple;
+  background-color: rgb(70, 5, 70);
   color: white;
   padding: 10px 25px;
   border-radius: 25px;
@@ -120,7 +120,7 @@
   height: auto;
 }
 .contact-info a {
-  color: purple;
+  color: rgb(70, 5, 70);
   text-decoration: none;
   transition: 0.3s;
 }
@@ -176,7 +176,7 @@
 
 .products-section h2 {
   font-size: 30px;
-  color: #6a0dad; /* Main purple theme */
+  color: rgb(70, 5, 70); /* Main purple theme */
   margin-bottom: 15px;
 }
 
@@ -214,7 +214,7 @@
 }
 
 .product-category h3 {
-  color: #6a0dad;
+  color:rgb(70, 5, 70);
   margin-bottom: 15px;
   font-size: 22px;
 }
@@ -234,7 +234,7 @@
 
 .services-section h2 {
   font-size: 30px;
-  color: #6a0dad; /* main purple theme */
+  color: rgb(70, 5, 70); /* main purple theme */
   margin-bottom: 15px;
 }
 
@@ -272,7 +272,7 @@
 }
 
 .service-card h3 {
-  color: #6a0dad;
+  color: rgb(70, 5, 70);
   margin-bottom: 10px;
   font-size: 22px;
 }
@@ -285,7 +285,7 @@
 
 /* Footer */
 footer {
-  background-color: purple;
+  background-color: rgb(70, 5, 70);
   color: white;
   text-align: center;
   padding: 15px 0;
