@@ -7,7 +7,7 @@
 
 /* Navbar */
 .navbar {
-  background-color: rgb(70, 5, 70);
+  background-color:rgb(70, 5, 70);
   color: white;
   display: flex;
   justify-content: space-between;
@@ -49,11 +49,12 @@
 
 /* Hero Section */
 .hero {
-  background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),
-              url('back.jpg') center/cover;
-  color: white;
+  background-image:url(back2.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  color: black;
   text-align: center;
-  padding: 120px 20px;
+  padding: 200px 20px;
 }
 
 .hero h2 {
@@ -87,7 +88,7 @@
 .contact-section {
   text-align: center;
   padding: 60px 20px;
-  background-color: #f8f0ff; 
+  background-color: #ffffff; 
 }
 
 .contact-section h2 {
@@ -151,7 +152,7 @@
 .about {
   text-align: center;
   padding: 60px 20px;
-  background-color: #f8f0ff;
+  background-color: #ffffff;
 }
 
 .about h2 {
@@ -171,7 +172,7 @@
 .products-section {
   text-align: center;
   padding: 60px 20px;
-  background-color: #f8f0ff; /* Light purple background */
+  background-color: white /* white background */
 }
 
 .products-section h2 {
@@ -229,7 +230,7 @@
 .services-section {
   text-align: center;
   padding: 60px 20px;
-  background-color: #f3e5f5; /* light purple background */
+  background-color: #ffffff; /* white background */
 }
 
 .services-section h2 {
