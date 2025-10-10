@@ -49,9 +49,6 @@
 
 /* Hero Section */
 .hero {
-  background-image:url(back2.png);
-  background-repeat: no-repeat;
-  background-position: center;
   color: black;
   text-align: center;
   padding: 200px 20px;
